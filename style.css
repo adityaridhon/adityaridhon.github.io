@@ -2,30 +2,80 @@
   font-family: "Poppins", sans-serif;
 }
 
-.nav-link:hover {
-  border-bottom: 2px solid;
+.nav-link {
+  font-size: 20px;
 }
+
+.nav-link:hover {
+  border-bottom: 1px solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+#cta {
+  padding: 12px;
+}
+
+
 
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 7rem;
   background-color: #dde6ed;
+  height: 100vh;
+  background-image: url(img/jumbotron-bg.jpg);
 }
 
-#about {
-  padding-top: 5rem;
-  background-color: #fff;
-}
-
+#about,
 #projects {
-  padding-top: 6rem;
-  background-color: #dde6ed;
+  padding-top: 8rem;
+  background-color: #fff;
+  height: 100vh;
+}
+
+#pengalaman {
+  padding-top: 8rem;
+  background-color: #e6e8e9;
+  height: 100%;
+  min-height: 100vh;
+}
+
+#projects a {
+  text-decoration: none;
+}
+
+#card-project {
+  transition: transform 0.5s; /* Animation */
+}
+
+#card-project:hover {
+  background-color: #e6e8e9;
 }
 
 #Kontak {
-  padding-top: 5rem;
+  padding-top: 7rem;
   background-color: #fff;
+  height: 100vh;
 }
 
 footer {
   background-color: #dde6ed;
+  padding-top: 4rem;
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    background-image: url("img/jumbotron-bg.jpg");
+    height: 100vh;
+  }
+
+  * {
+    font-size,
+     span: 80%;
+  }
+
+  #projects {
+    margin-bottom: 6rem;
+  }
 }
