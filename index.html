@@ -20,12 +20,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    />
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg bg-primary shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand fw-medium fs-3 text-primary" href="#"
+        <a class="navbar-brand fw-medium fs-3 text-white" href="#"
           >Aditya <span class="text-primary-emphasis">Ridho</span></a
         >
         <button
@@ -41,11 +47,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link text-dark" href="#">Beranda</a>
-            <a class="nav-link text-dark" href="#about">Tentang</a>
-            <a class="nav-link text-dark" href="#pengalaman">Pengalaman</a>
-            <a class="nav-link text-dark" href="#projects">Projek</a>
-            <a class="nav-link text-dark" href="#Kontak">Kontak</a>
+            <a class="nav-link text-white fw-medium" href="#">Beranda</a>
+            <a class="nav-link text-white fw-medium" href="#about">Tentang</a>
+            <a class="nav-link text-white fw-medium" href="#pengalaman"
+              >Pengalaman</a
+            >
+            <a class="nav-link text-white fw-medium" href="#projects">Projek</a>
+            <a class="nav-link text-white fw-medium" href="#Kontak">Kontak</a>
           </div>
         </div>
       </div>
@@ -58,14 +66,14 @@
       </div>
       <div>
         <h1 class="display-4 fw-medium text-white" id="jumbo-text">
-          Aditya Ridho Nugroho
+          Aditya Ridho
         </h1>
         <p class="lead text-white" id="jumbo-text">
           Institut Teknologi Kalimantan | Informatika '23
         </p>
         <div>
           <a
-            href="https://wa.me/qr/DD4GF77M7MIRG1"
+            href="https://wa.me/message/4AJG7WZUE4KPM1"
             class="text-center btn btn-primary"
             id="cta"
             >Hubungi Saya!</a
@@ -101,56 +109,38 @@
 
     <!-- pengalaman start -->
     <section id="pengalaman">
-      <div class="container" data-aos="fade-right" data-aos-duration="1500">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Pengalaman</h2>
-          </div>
+      <div class="container">
+        <div class="col text-white text-center mb-5">
+          <h2>Pengalaman</h2>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/pengalaman/1.jpg"
-                class="card-img-top"
-                alt="project1"
-              />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box box-1">
               <div class="card-body">
-                <h5 class="card-title">Instalasi PC/Laptop</h5>
-                <p class="card-text">
-                  Melakukan Instalasi dan Konfigurasi hardware dan software
-                  PC/Laptop.
+                <img src="img/pengalaman/1.jpg" alt="1" />
+                <h2 class="fs-4">Instalasi PC/Laptop</h2>
+                <p>Melakukan instalasi hardware dan software PC atau laptop</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box box-2">
+              <div class="card-body">
+                <img src="img/pengalaman/2.jpg" alt="1" />
+                <h2 class="fs-4">Instalasi CCTV</h2>
+                <p>
+                  Melakukan instalasi cctv menggunakan jaringan Local Area
+                  Network
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/pengalaman/2.jpg"
-                class="card-img-top"
-                alt="project2"
-              />
+          <div class="col-md-4">
+            <div class="box box-3">
               <div class="card-body">
-                <h5 class="card-title">Instalasi CCTV</h5>
-                <p class="card-text">
-                  Melakukan Instalasi cctv menggunakan jaringan LAN.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/pengalaman/3.jpg"
-                class="card-img-top"
-                alt="project"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Network Troubleshoot</h5>
-                <p class="card-text">
-                  Melakukan troubleshooting pada jaringan LAN.
-                </p>
+                <img src="img/pengalaman/3.jpg" alt="1" />
+                <h2 class="fs-4">Troubleshooting Network</h2>
+                <p>Melakukan troubleshoot jaringan komputer</p>
               </div>
             </div>
           </div>
@@ -158,56 +148,12 @@
       </div>
     </section>
     <!-- Pengalaman end -->
-
-    <!-- projects start -->
-    <section id="projects">
-      <div class="container" data-aos="fade-right" data-aos-duration="1500">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Projek Saya</h2>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-6 mb-3">
-            <a href="https://gudangadit.berkahhosting.com/">
-              <div class="card" id="card-project">
-                <img
-                  src="img/projects/1.jpg"
-                  class="card-img-top"
-                  alt="project1"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Web CRUD Sederhana</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 mb-3">
-            <a href="https://adityaridhon.github.io/company-profile/">
-              <div class="card" id="card-project">
-                <img
-                  src="img/projects/2.jpg"
-                  class="card-img-top"
-                  alt="project"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Web Company Profile</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- projects end -->
-
     <!-- kontak start -->
     <section id="Kontak">
       <div class="container" data-aos="fade-down" data-aos-duration="1500">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2>Kontak Saya</h2>
           </div>
         </div>
         <div class="row justify-content-center text-start">
@@ -254,12 +200,12 @@
                   name="pesan"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-secondary btn-kirim">
+              <button type="submit" class="btn btn-primary btn-kirim">
                 Kirim
               </button>
               <!-- loading -->
               <button
-                class="btn btn-secondary btn-loading d-none"
+                class="btn btn-primary btn-loading d-none"
                 type="button"
                 disabled
               >
@@ -279,13 +225,17 @@
 
     <!-- footer start -->
     <footer class="text-center pb-5">
-      <p class="fs-5" style="color: #27374d">
-        Created by
-        <a class="text-decoration-none" style="color: #626655" href=""
-          >Aditya Ridho</a
-        >
+      <a href="https://wa.me/message/4AJG7WZUE4KPM1"
+        ><i class="bi bi-whatsapp"></i
+      ></a>
+      <a href="https://instagram.com/adtyrdho"
+        ><i class="bi bi-instagram"></i
+      ></a>
+      <a href="https://github.com/adityaridhon"><i class="bi bi-github"></i></a>
+      <p class="fs-5 text-white mt-3">
+        Created by <a class="" href="">Aditya Ridho</a>
       </p>
-      <p class="FS-5" style="color: #27374d">Copyright | 2023</p>
+      <p class="FS-5 text-white">Copyright | 2023</p>
     </footer>
     <!-- footer end -->
     <script
