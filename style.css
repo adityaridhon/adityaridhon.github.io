@@ -25,20 +25,26 @@ a {
   background-color: #dde6ed;
   height: 100vh;
   background-image: url(img/jumbotron-bg.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#about,
-#projects {
+#about{
   padding-top: 8rem;
   background-color: #fff;
   height: 100vh;
+  background-image: url(img/4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffff;
 }
 
 #pengalaman {
   padding-top: 8rem;
-  background-image: linear-gradient(to bottom right, #0a1641, black);
-  height: 100%;
-  min-height: 100vh;
+  background-image: url(img/jumbotron-bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 #pengalaman .box {
@@ -57,17 +63,6 @@ a {
   border-radius: 0 30px 0 30px;
 }
 
-#projects a {
-  text-decoration: none;
-}
-
-#card-project {
-  transition: transform 0.5s; /* Animation */
-}
-
-#card-project:hover {
-  background-color: #e6e8e9;
-}
 
 #Kontak {
   padding-top: 7rem;
